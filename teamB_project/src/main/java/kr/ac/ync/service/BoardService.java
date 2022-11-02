@@ -5,6 +5,7 @@ import java.util.List;
 import kr.ac.ync.domain.BoardVO;
 import kr.ac.ync.domain.Criteria;
 
+
 public interface BoardService {
 
 	// 글 등록
