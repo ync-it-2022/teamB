@@ -19,22 +19,22 @@
 					<p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">state</a>, <a href="#">city</a>| Added at 06:55 pm, Ad ID: 987654321</p>
 					<div class="flexslider">
 						<ul class="slides">
-							<li data-thumb="../images/ss1.jpg">
-								<img src="../images/ss1.jpg" />
+							<li data-thumb="/resources/images/ss1.jpg">
+								<img src="/resources/images/ss1.jpg" />
 							</li>
-							<li data-thumb="../images/ss2.jpg">
-								<img src="../images/ss2.jpg" />
+							<li data-thumb="/resources/images/ss2.jpg">
+								<img src="/resources/images/ss2.jpg" />
 							</li>
-							<li data-thumb="../images/ss3.jpg">
-								<img src="../images/ss3.jpg" />
+							<li data-thumb="/resources/images/ss3.jpg">
+								<img src="/resources/images/ss3.jpg" />
 							</li>
-							<li data-thumb="../images/ss4.jpg">
-								<img src="../images/ss4.jpg" />
+							<li data-thumb="/resources/images/ss4.jpg">
+								<img src="/resources/images/ss4.jpg" />
 							</li>
 						</ul>
 					</div>
 					<!-- FlexSlider -->
-					  <script defer src="../js/jquery.flexslider.js"></script>
+					  <script defer src="/resources/js/jquery.flexslider.js"></script>
 
 						<script>
 					// Can also be used with $(document).ready()

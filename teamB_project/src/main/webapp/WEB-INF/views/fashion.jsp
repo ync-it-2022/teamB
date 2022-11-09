@@ -440,7 +440,7 @@
 									</li>			
 							</ul>
 							<!---->
-							<script type="text/javascript" src="../js/jquery-ui.js"></script>
+							<script type="text/javascript" src="/resources/js/jquery-ui.js"></script>
 							<script type='text/javascript'>//<![CDATA[ 
 							$(window).load(function(){
 							 $( "#slider-range" ).slider({
@@ -471,7 +471,7 @@
 					<div class="w3l-featured-ad">
 						<a href="single.jsp">
 							<div class="w3-featured-ad-left">
-								<img src="../images/f1.jpg" title="ad image" alt="" />
+								<img src="/resources/images/f1.jpg" title="ad image" alt="" />
 							</div>
 							<div class="w3-featured-ad-right">
 								<h4>Lorem Ipsum is simply dummy text of the printing industry</h4>
@@ -483,7 +483,7 @@
 					<div class="w3l-featured-ad">
 						<a href="single.jsp">
 							<div class="w3-featured-ad-left">
-								<img src="../images/f2.jpg" title="ad image" alt="" />
+								<img src="/resources/images/f2.jpg" title="ad image" alt="" />
 							</div>
 							<div class="w3-featured-ad-right">
 								<h4>Lorem Ipsum is simply dummy text of the printing industry</h4>
@@ -495,7 +495,7 @@
 					<div class="w3l-featured-ad">
 						<a href="single.jsp">
 							<div class="w3-featured-ad-left">
-								<img src="../images/f3.jpg" title="ad image" alt="" />
+								<img src="/resources/images/f3.jpg" title="ad image" alt="" />
 							</div>
 							<div class="w3-featured-ad-right">
 								<h4>Lorem Ipsum is simply dummy text of the printing industry</h4>
@@ -544,7 +544,7 @@
 							<ul class="list">
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa1.jpg" title="" alt="" />
+									<img src="/resources/images/fa1.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$290</span>
@@ -559,7 +559,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa2.jpg" title="" alt="" />
+									<img src="/resources/images/fa2.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">It is a long established fact that a reader</h5>
 									<span class="adprice">$310</span>
@@ -574,7 +574,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa3.jpg" title="" alt="" />
+									<img src="/resources/images/fa3.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Contrary to popular belief, Lorem Ipsum is not</h5>
 									<span class="adprice">$190</span>
@@ -589,7 +589,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa4.jpg" title="" alt="" />
+									<img src="/resources/images/fa4.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">The standard chunk of Lorem Ipsum used since the</h5>
 									<span class="adprice">$480</span>
@@ -604,7 +604,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa5.jpg" title="" alt="" />
+									<img src="/resources/images/fa5.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h5>
 									<span class="adprice">$859</span>
@@ -619,7 +619,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa6.jpg" title="" alt="" />
+									<img src="/resources/images/fa6.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">But I must explain to you how all this mistaken idea of denouncing</h5>
 									<span class="adprice">$1299</span>
@@ -634,7 +634,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa1.jpg" title="" alt="" />
+									<img src="/resources/images/fa1.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</h5>
 									<span class="adprice">$1099</span>
@@ -649,7 +649,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa7.jpg" title="" alt="" />
+									<img src="/resources/images/fa7.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">On the other hand, we denounce with righteous dislike men</h5>
 									<span class="adprice">$290</span>
@@ -664,7 +664,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa8.jpg" title="" alt="" />
+									<img src="/resources/images/fa8.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$899</span>
@@ -679,7 +679,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa9.jpg" title="" alt="" />
+									<img src="/resources/images/fa9.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et qua</h5>
 									<span class="adprice">$199</span>
@@ -694,7 +694,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa10.jpg" title="" alt="" />
+									<img src="/resources/images/fa10.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$250</span>
@@ -709,7 +709,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa11.jpg" title="" alt="" />
+									<img src="/resources/images/fa11.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">who are so beguiled and demoralized by the charms of pleasure of the moment</h5>
 									<span class="adprice">$189</span>
@@ -724,7 +724,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa12.jpg" title="" alt="" />
+									<img src="/resources/images/fa12.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">you need to be sure there isn't anything embarrassing hidden</h5>
 									<span class="adprice">$1090</span>
@@ -739,7 +739,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa13.jpg" title="" alt="" />
+									<img src="/resources/images/fa13.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">looked up one of the more obscure Latin words</h5>
 									<span class="adprice">$599</span>
@@ -779,7 +779,7 @@
 							<ul class="list">
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa1.jpg" title="" alt="" />
+									<img src="/resources/images/fa1.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$290</span>
@@ -794,7 +794,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa2.jpg" title="" alt="" />
+									<img src="/resources/images/fa2.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">It is a long established fact that a reader</h5>
 									<span class="adprice">$310</span>
@@ -809,7 +809,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa3.jpg" title="" alt="" />
+									<img src="/resources/images/fa3.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Contrary to popular belief, Lorem Ipsum is not</h5>
 									<span class="adprice">$190</span>
@@ -824,7 +824,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa4.jpg" title="" alt="" />
+									<img src="/resources/images/fa4.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">The standard chunk of Lorem Ipsum used since the</h5>
 									<span class="adprice">$480</span>
@@ -839,7 +839,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa5.jpg" title="" alt="" />
+									<img src="/resources/images/fa5.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h5>
 									<span class="adprice">$859</span>
@@ -854,7 +854,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa6.jpg" title="" alt="" />
+									<img src="/resources/images/fa6.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">But I must explain to you how all this mistaken idea of denouncing</h5>
 									<span class="adprice">$1299</span>
@@ -869,7 +869,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa1.jpg" title="" alt="" />
+									<img src="/resources/images/fa1.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</h5>
 									<span class="adprice">$1099</span>
@@ -884,7 +884,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa7.jpg" title="" alt="" />
+									<img src="/resources/images/fa7.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">On the other hand, we denounce with righteous dislike men</h5>
 									<span class="adprice">$290</span>
@@ -899,7 +899,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa8.jpg" title="" alt="" />
+									<img src="/resources/images/fa8.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$899</span>
@@ -914,7 +914,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa9.jpg" title="" alt="" />
+									<img src="/resources/images/fa9.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et qua</h5>
 									<span class="adprice">$199</span>
@@ -929,7 +929,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa10.jpg" title="" alt="" />
+									<img src="/resources/images/fa10.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$250</span>
@@ -944,7 +944,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa11.jpg" title="" alt="" />
+									<img src="/resources/images/fa11.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">who are so beguiled and demoralized by the charms of pleasure of the moment</h5>
 									<span class="adprice">$189</span>
@@ -959,7 +959,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa12.jpg" title="" alt="" />
+									<img src="/resources/images/fa12.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">you need to be sure there isn't anything embarrassing hidden</h5>
 									<span class="adprice">$1090</span>
@@ -974,7 +974,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="../images/fa13.jpg" title="" alt="" />
+									<img src="/resources/images/fa13.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">looked up one of the more obscure Latin words</h5>
 									<span class="adprice">$599</span>

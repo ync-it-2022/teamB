@@ -46,4 +46,6 @@ public class CommonController {
 
 		log.info("post custom logout");
 	}
+	
+	
 }

@@ -4,7 +4,7 @@
 	<!-- breadcrumbs -->
 	<div class="w3layouts-breadcrumbs text-center">
 		<div class="container">
-			<span class="agile-breadcrumbs"><a href="index.jsp"><i class="fa fa-home home_1"></i></a> / <span>Contact</span></span>
+			<span class="agile-breadcrumbs"><a href="/index.jsp"><i class="fa fa-home home_1"></i></a> / <span>Contact</span></span>
 		</div>
 	</div>
 	<!-- //breadcrumbs -->
@@ -63,14 +63,14 @@
 		<input class="button" type="submit" value="Send" />
 		</form>
 		<!-- JavaScript Includes -->
-		<script src="../js/jquery.knob.js"></script>
+		<script src="/resources/js/jquery.knob.js"></script>
 
 		<!-- jQuery File Upload Dependencies -->
-		<script src="../js/jquery.ui.widget.js"></script>
-		<script src="../js/jquery.fileupload.js"></script>
+		<script src="/resources/js/jquery.ui.widget.js"></script>
+		<script src="/resources/js/jquery.fileupload.js"></script>
 		
 		<!-- Our main JS file -->
-		<script src="../js/script.js"></script>
+		<script src="/resources/js/script.js"></script>
 						</div>
 			</section>
 			<script>

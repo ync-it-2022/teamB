@@ -11,31 +11,31 @@
 				<li>
 					<div class="w3ls-slide-text">
 						<h3>Sell or Advertise anything online</h3>
-						<a href="/resources/jsp/categories.jsp" class="w3layouts-explore-all">Browse all Categories</a>
+						<a href=categories" class="w3layouts-explore-all">Browse all Categories</a>
 					</div>
 				</li>
 				<li>
 					<div class="w3ls-slide-text">
 						<h3>Find the Best Deals Here</h3>
-						<a href="/resources/jsp/categories.jsp" class="w3layouts-explore">Explore</a>
+						<a href="categories" class="w3layouts-explore">Explore</a>
 					</div>
 				</li>
 				<li>
 					<div class="w3ls-slide-text">
 						<h3>Lets build the home of your dreams</h3>
-						<a href="/resources/jsp/real-estate.jsp" class="w3layouts-explore">Explore</a>
+						<a href="real-estate" class="w3layouts-explore">Explore</a>
 					</div>
 				</li>
 				<li>
 					<div class="w3ls-slide-text">
 						<h3>Find your dream ride</h3>
-						<a href="/resources/jsp/bikes.jsp" class="w3layouts-explore">Explore</a>
+						<a href="bikes" class="w3layouts-explore">Explore</a>
 					</div>
 				</li>
 				<li>
 					<div class="w3ls-slide-text">
 						<h3>The Easiest Way to get a Job</h3>
-						<a href="/resources/jsp/jobs.jsp" class="w3layouts-explore">Find a Job</a>
+						<a href="jobs" class="w3layouts-explore">Find a Job</a>
 					</div>
 				</li>
 			</ul>
@@ -48,7 +48,7 @@
 				<div class="container">
 					<div class="col-md-3">
 						<div class="focus-grid w3layouts-boder1">
-							<a class="btn-8" href="/resources/jsp/categories.jsp">
+							<a class="btn-8" href="/categories.jsp">
 								<div class="focus-border">
 									<div class="focus-layout">
 										<div class="focus-image"><i class="fa fa-mobile"></i></div>
@@ -60,7 +60,7 @@
 					</div>
 					<div class="col-md-3">
 						<div class="focus-grid w3layouts-boder2">	
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab2">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab2">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-laptop"></i></div>
@@ -72,7 +72,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder3">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab3">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab3">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-car"></i></div>
@@ -84,7 +84,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder4">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab4">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab4">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-motorcycle"></i></div>
@@ -96,7 +96,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder5">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab5">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab5">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-wheelchair"></i></div>
@@ -108,7 +108,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder6">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab6">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab6">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-paw"></i></div>
@@ -120,7 +120,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder7">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab7">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab7">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-book"></i></div>
@@ -132,7 +132,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder8">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab8">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab8">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-asterisk"></i></div>
@@ -144,7 +144,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder9">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab9">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab9">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-gamepad"></i></div>
@@ -156,7 +156,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder10">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab10">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab10">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-shield"></i></div>
@@ -168,7 +168,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder11">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab11">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab11">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-at"></i></div>
@@ -180,7 +180,7 @@
 					</div>
 					<div class="col-md-3">
 					<div class="focus-grid w3layouts-boder12">
-						<a class="btn-8" href="/resources/jsp/categories.jsp#parentVerticalTab12">
+						<a class="btn-8" href="/categories.jsp#parentVerticalTab12">
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-home"></i></div>
@@ -205,9 +205,9 @@
 							<div class="over-image"></div>
 						</div>
 						<div class="portfolio-description">
-						   <h4><a href="/resources/jsp/cars.jsp">Latest Cars</a></h4>
+						   <h4><a href="/cars.jsp">Latest Cars</a></h4>
 						   <p>Suspendisse placerat mattis arcu nec por</p>
-							<a href="/resources/jsp/cars.jsp">
+							<a href=" /cars.jsp">
 								<span>Explore</span>
 							</a>
 						</div>
@@ -219,9 +219,9 @@
 							 <div class="over-image"></div>
 						</div>
 						<div class="portfolio-description">
-						   <h4><a href="/resources/jsp/real-estate.jsp">Apartments for Sale</a></h4>
+						   <h4><a href="/real-estate.jsp">Apartments for Sale</a></h4>
 						   <p>Suspendisse placerat mattis arcu nec por</p>
-							<a href="/resources/jsp/real-estate.jsp">
+							<a href=" /real-estate.jsp">
 								<span>Explore</span>
 							</a>
 						</div>
@@ -235,9 +235,9 @@
 							 <div class="over-image"></div>
 						</div>
 						<div class="portfolio-description">
-						   <h4><a href="/resources/jsp/jobs.jsp">BPO jobs</a></h4>
+						   <h4><a href="/jobs.jsp">BPO jobs</a></h4>
 						   <p>Suspendisse placerat mattis arcu nec por</p>
-							<a href="/resources/jsp/jobs.jsp">
+							<a href=" /jobs.jsp">
 								<span>Explore</span>
 							</a>
 						</div>
@@ -249,9 +249,9 @@
 							 <div class="over-image"></div>
 						</div>
 						<div class="portfolio-description">
-						   <h4><a href="/resources/jsp/electronics-appliances.jsp">Accessories</a></h4>
+						   <h4><a href="/electronics-appliances.jsp">Accessories</a></h4>
 						   <p>Suspendisse placerat mattis arcu nec por</p>
-							<a href="/resources/jsp/electronics-appliances.jsp">
+							<a href="/electronics-appliances.jsp">
 								<span>Explore</span>
 							</a>
 						</div>
@@ -263,9 +263,9 @@
 							 <div class="over-image"></div>
 						</div>
 						<div class="portfolio-description">
-						   <h4><a href="/resources/jsp/furnitures.jsp">Home Appliances</a></h4>
+						   <h4><a href="furnitures.jsp">Home Appliances</a></h4>
 						   <p>Suspendisse placerat mattis arcu nec por</p>
-							<a href="/resources/jsp/furnitures.jsp">
+							<a href=" furnitures.jsp">
 								<span>Explore</span>
 							</a>
 						</div>
@@ -277,9 +277,9 @@
 							 <div class="over-image"></div>
 						</div>
 						<div class="portfolio-description">
-						   <h4><a href="/resources/jsp/fashion.jsp">Clothing</a></h4>
+						   <h4><a href="/fashion.jsp">Clothing</a></h4>
 						   <p>Suspendisse placerat mattis arcu nec por</p>
-							<a href="/resources/jsp/fashion.jsp">
+							<a href="/fashion.jsp">
 								<span>Explore</span>
 							</a>
 						</div>
@@ -297,7 +297,7 @@
 							<ul id="flexiselDemo3">
 								<li>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p1.jpg" alt="" />
 											<span class="price">&#36; 450</span>
 										</a> 
@@ -307,7 +307,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p2.jpg" alt="" />
 											<span class="price">&#36; 399</span>
 										</a> 
@@ -317,7 +317,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p3.jpg" alt="" />
 											<span class="price">&#36; 199</span>
 										</a> 
@@ -327,7 +327,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p4.jpg" alt="" />
 											<span class="price">&#36; 159</span>
 										</a> 
@@ -339,7 +339,7 @@
 								</li>
 								<li>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p5.jpg" alt="" />
 											<span class="price">&#36; 1599</span>
 										</a> 
@@ -349,7 +349,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p6.jpg" alt="" />
 											<span class="price">&#36; 1099</span>
 										</a> 
@@ -359,7 +359,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p7.jpg" alt="" />
 											<span class="price">&#36; 109</span>
 										</a> 
@@ -369,7 +369,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p8.jpg" alt="" />
 											<span class="price">&#36; 189</span>
 										</a> 
@@ -381,7 +381,7 @@
 								</li>
 								<li>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p9.jpg" alt="" />
 											<span class="price">&#36; 2599</span>
 										</a> 
@@ -391,7 +391,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p10.jpg" alt="" />
 											<span class="price">&#36; 3999</span>
 										</a> 
@@ -401,7 +401,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p11.jpg" alt="" />
 											<span class="price">&#36; 2699</span>
 										</a> 
@@ -411,7 +411,7 @@
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
-										<a href="/resources/jsp/single.jsp">
+										<a href="/single.jsp">
 											<img src="/resources/images/p12.jpg" alt="" />
 											<span class="price">&#36; 899</span>
 										</a> 
@@ -449,7 +449,7 @@
 			<div class="agile-info-mobile-app">
 				<div class="container">
 					<div class="col-md-5 w3-app-left">
-						<a href="/resources/jsp/mobileapp.jsp"><img src="/resources/images/app.png" alt=""></a>
+						<a href="/mobileapp.jsp"><img src="/resources/images/app.png" alt=""></a>
 					</div>
 					<div class="col-md-7 w3-app-right">
 						<h3>Resale App is the <span>Easiest</span> way for Selling and buying second-hand goods</h3>
@@ -467,5 +467,6 @@
 			</div>
 			<!-- //mobile app -->
 		</div>
+
 
 <%@include file="./includes/footer.jsp"%>

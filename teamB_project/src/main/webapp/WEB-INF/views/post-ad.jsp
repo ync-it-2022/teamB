@@ -58,7 +58,7 @@
 						</div>
 						</div>
 					<div class="clearfix"></div>
-						<script src="../js/filedrag.js"></script>
+						<script src="/resources/js/filedrag.js"></script>
 				</div>
 					<div class="personal-details">
 					<form>

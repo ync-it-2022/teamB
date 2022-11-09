@@ -130,4 +130,6 @@ public class BoardController {
 
 		return "redirect:/board/list" + cri.getListLink();
 	}
+	
+	
 }

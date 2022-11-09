@@ -1,16 +1,16 @@
-<%@include file="./includes/header.jsp"%>
 
+	<%@include file="./includes/header.jsp"%>
 	<!-- breadcrumbs -->
 	<div class="w3layouts-breadcrumbs text-center">
 		<div class="container">
 			<span class="agile-breadcrumbs">
-			<a href="index.jsp"><i class="fa fa-home home_1"></i></a> / 
-			<a href="categories.jsp">Categories</a> / 
-			<span>Kids</span></span>
+			<a href="/index.jsp"><i class="fa fa-home home_1"></i></a> / 
+			<a href="/categories.jsp">Categories</a> / 
+			<span>Bikes</span></span>
 		</div>
 	</div>
 	<!-- //breadcrumbs -->
-	<!-- Kids -->
+	<!-- Bikes -->
 	<div class="total-ads main-grid-border">
 		<div class="container">
 			<div class="select-box">
@@ -391,15 +391,15 @@
 				<div class="browse-category ads-list">
 					<label>Browse Categories</label>
 					<select class="selectpicker show-tick" data-live-search="true">
-					  <option data-tokens="Kids">Kids</option>
+					  <option data-tokens="Bikes">Bikes</option>
 					  <option data-tokens="Mobiles">Mobiles</option>
 					  <option data-tokens="Electronics & Appliances">Electronics & Appliances</option>
 					  <option data-tokens="Cars">Cars</option>
-					  <option data-tokens="Bikes">Bikes</option>
 					  <option data-tokens="Furniture">Furniture</option>
 					  <option data-tokens="Pets">Pets</option>
 					  <option data-tokens="Books, Sports & Hobbies">Books, Sports & Hobbies</option>
 					  <option data-tokens="Fashion">Fashion</option>
+					  <option data-tokens="Kids">Kids</option>
 					  <option data-tokens="Services">Services</option>
 					  <option data-tokens="Jobs">Jobs</option>
 					  <option data-tokens="Real Estate">Real Estate</option>
@@ -442,7 +442,7 @@
 									</li>			
 							</ul>
 							<!---->
-							<script type="text/javascript" src="../js/jquery-ui.js"></script>
+							<script type="text/javascript" src="/resources/js/jquery-ui.js"></script>
 							<script type='text/javascript'>//<![CDATA[ 
 							$(window).load(function(){
 							 $( "#slider-range" ).slider({
@@ -460,12 +460,30 @@
 							</script>
 							
 				</div>
+				<div class="w3-brand-select">
+					<h3 class="agileits-sear-head">Brand name</h3>
+					  <select class="selectpicker" data-live-search="true">
+					  <option data-tokens="All">All</option>
+					  <option data-tokens="Bajaj">Bajaj</option>
+					  <option data-tokens="Harley Davidson">Harley Davidson</option>
+					  <option data-tokens="Hero">Hero</option>
+					  <option data-tokens="Hero Honda">Hero Honda</option>
+					  <option data-tokens="Honda">Honda</option>
+					  <option data-tokens="Kawasaki">Kawasaki</option>
+					  <option data-tokens="KTM">KTM</option>
+					  <option data-tokens="Mahindra">Mahindra</option>
+					  <option data-tokens="Royal Enfield">Royal Enfield</option>
+					  <option data-tokens="Suzuki">Suzuki</option>
+					  <option data-tokens="Yamaha">Yamaha</option>
+					  <option data-tokens="Other Brands">Other Brands</option>
+					</select>
+				</div>
 				<div class="w3ls-featured-ads">
 					<h2 class="sear-head fer">Featured Ads</h2>
 					<div class="w3l-featured-ad">
-						<a href="single.jsp">
+						<a href="/single.jsp">
 							<div class="w3-featured-ad-left">
-								<img src="../images/f1.jpg" title="ad image" alt="" />
+								<img src="/resources/images/f1.jpg" title="ad image" alt="" />
 							</div>
 							<div class="w3-featured-ad-right">
 								<h4>Lorem Ipsum is simply dummy text of the printing industry</h4>
@@ -475,9 +493,9 @@
 						</a>
 					</div>
 					<div class="w3l-featured-ad">
-						<a href="single.jsp">
+						<a href="/single.jsp">
 							<div class="w3-featured-ad-left">
-								<img src="../images/f2.jpg" title="ad image" alt="" />
+								<img src="/resources/images/f2.jpg" title="ad image" alt="" />
 							</div>
 							<div class="w3-featured-ad-right">
 								<h4>Lorem Ipsum is simply dummy text of the printing industry</h4>
@@ -487,9 +505,9 @@
 						</a>
 					</div>
 					<div class="w3l-featured-ad">
-						<a href="single.jsp">
+						<a href="/single.jsp">
 							<div class="w3-featured-ad-left">
-								<img src="../images/f2.jpg" title="ad image" alt="" />
+								<img src="/resources/images/f3.jpg" title="ad image" alt="" />
 							</div>
 							<div class="w3-featured-ad-right">
 								<h4>Lorem Ipsum is simply dummy text of the printing industry</h4>
@@ -515,6 +533,11 @@
 							<span class="text">Ads with Photos</span>
 						  </a>
 						</li>
+						<li role="presentation">
+						  <a href="#samsa" role="tab" id="samsa-tab" data-toggle="tab" aria-controls="samsa">
+							<span class="text">Company</span>
+						  </a>
+						</li>
 					  </ul>
 					  <div id="myTabContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
@@ -537,13 +560,13 @@
 									 </div>
 								<div class="clearfix"></div>
 							<ul class="list">
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k1.jpg" title="" alt="" />
+									<img src="/resources/images/bk1.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$290</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:55</span>
@@ -552,13 +575,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k2.jpg" title="" alt="" />
+									<img src="/resources/images/bk2.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">It is a long established fact that a reader</h5>
 									<span class="adprice">$310</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:45</span>
@@ -567,13 +590,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k3.jpg" title="" alt="" />
+									<img src="/resources/images/bk3.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Contrary to popular belief, Lorem Ipsum is not</h5>
 									<span class="adprice">$190</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:30</span>
@@ -582,13 +605,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k4.jpg" title="" alt="" />
+									<img src="/resources/images/bk4.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">The standard chunk of Lorem Ipsum used since the</h5>
 									<span class="adprice">$480</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:25</span>
@@ -597,13 +620,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k5.jpg" title="" alt="" />
+									<img src="/resources/images/bk5.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h5>
 									<span class="adprice">$859</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:24</span>
@@ -612,13 +635,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k6.jpg" title="" alt="" />
+									<img src="/resources/images/bk6.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">But I must explain to you how all this mistaken idea of denouncing</h5>
 									<span class="adprice">$1299</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:22</span>
@@ -627,13 +650,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k1.jpg" title="" alt="" />
+									<img src="/resources/images/bk1.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</h5>
 									<span class="adprice">$1099</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:21</span>
@@ -642,13 +665,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k7.jpg" title="" alt="" />
+									<img src="/resources/images/bk7.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">On the other hand, we denounce with righteous dislike men</h5>
 									<span class="adprice">$290</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:20</span>
@@ -657,13 +680,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k8.jpg" title="" alt="" />
+									<img src="/resources/images/bk8.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$899</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:05</span>
@@ -672,13 +695,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k9.jpg" title="" alt="" />
+									<img src="/resources/images/bk9.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et qua</h5>
 									<span class="adprice">$199</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:04</span>
@@ -687,13 +710,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k10.jpg" title="" alt="" />
+									<img src="/resources/images/bk10.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$250</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:03</span>
@@ -702,13 +725,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k11.jpg" title="" alt="" />
+									<img src="/resources/images/bk11.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">who are so beguiled and demoralized by the charms of pleasure of the moment</h5>
 									<span class="adprice">$189</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:03</span>
@@ -717,13 +740,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k12.jpg" title="" alt="" />
+									<img src="/resources/images/bk12.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">you need to be sure there isn't anything embarrassing hidden</h5>
 									<span class="adprice">$1090</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:03</span>
@@ -732,13 +755,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k13.jpg" title="" alt="" />
+									<img src="/resources/images/bk13.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">looked up one of the more obscure Latin words</h5>
 									<span class="adprice">$599</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:02</span>
@@ -772,13 +795,13 @@
 									 </div>
 								<div class="clearfix"></div>
 							<ul class="list">
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k1.jpg" title="" alt="" />
+									<img src="/resources/images/bk1.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$290</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:55</span>
@@ -787,13 +810,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k2.jpg" title="" alt="" />
+									<img src="/resources/images/bk2.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">It is a long established fact that a reader</h5>
 									<span class="adprice">$310</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:45</span>
@@ -802,13 +825,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k3.jpg" title="" alt="" />
+									<img src="/resources/images/bk3.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Contrary to popular belief, Lorem Ipsum is not</h5>
 									<span class="adprice">$190</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:30</span>
@@ -817,13 +840,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k4.jpg" title="" alt="" />
+									<img src="/resources/images/bk4.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">The standard chunk of Lorem Ipsum used since the</h5>
 									<span class="adprice">$480</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:25</span>
@@ -832,13 +855,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k5.jpg" title="" alt="" />
+									<img src="/resources/images/bk5.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h5>
 									<span class="adprice">$859</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:24</span>
@@ -847,13 +870,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k6.jpg" title="" alt="" />
+									<img src="/resources/images/bk6.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">But I must explain to you how all this mistaken idea of denouncing</h5>
 									<span class="adprice">$1299</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:22</span>
@@ -862,13 +885,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k1.jpg" title="" alt="" />
+									<img src="/resources/images/bk1.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</h5>
 									<span class="adprice">$1099</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:21</span>
@@ -877,13 +900,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k7.jpg" title="" alt="" />
+									<img src="/resources/images/bk7.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">On the other hand, we denounce with righteous dislike men</h5>
 									<span class="adprice">$290</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:20</span>
@@ -892,13 +915,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k8.jpg" title="" alt="" />
+									<img src="/resources/images/bk8.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$899</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:05</span>
@@ -907,13 +930,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k9.jpg" title="" alt="" />
+									<img src="/resources/images/bk9.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et qua</h5>
 									<span class="adprice">$199</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:04</span>
@@ -922,13 +945,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k10.jpg" title="" alt="" />
+									<img src="/resources/images/bk10.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
 									<span class="adprice">$250</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:03</span>
@@ -937,13 +960,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k11.jpg" title="" alt="" />
+									<img src="/resources/images/bk11.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">who are so beguiled and demoralized by the charms of pleasure of the moment</h5>
 									<span class="adprice">$189</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:03</span>
@@ -952,13 +975,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k12.jpg" title="" alt="" />
+									<img src="/resources/images/bk12.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">you need to be sure there isn't anything embarrassing hidden</h5>
 									<span class="adprice">$1090</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:03</span>
@@ -967,13 +990,13 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/single.jsp">
 									<li>
-									<img src="../images/k13.jpg" title="" alt="" />
+									<img src="/resources/images/bk13.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">looked up one of the more obscure Latin words</h5>
 									<span class="adprice">$599</span>
-									<p class="catpath">Kids » Furniture And Toys</p>
+									<p class="catpath">Motorcycles » Bajaj</p>
 									</section>
 									<section class="list-right">
 									<span class="date">Today, 17:02</span>
@@ -987,7 +1010,241 @@
 						</div>
 							</div>
 						</div>
-						
+						<div role="tabpanel" class="tab-pane fade" id="samsa" aria-labelledby="samsa-tab">
+						  <div>
+												<div id="container">
+								<div class="view-controls-list" id="viewcontrols">
+									<label>view :</label>
+									<a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
+									<a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
+								</div>
+								<div class="sort">
+								   <div class="sort-by">
+										<label>Sort By : </label>
+										<select>
+														<option value="">Most recent</option>
+														<option value="">Price: Rs Low to High</option>
+														<option value="">Price: Rs High to Low</option>
+										</select>
+									   </div>
+									 </div>
+								<div class="clearfix"></div>
+							<ul class="list">
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk1.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
+									<span class="adprice">$290</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:55</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk2.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">It is a long established fact that a reader</h5>
+									<span class="adprice">$310</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:45</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk3.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Contrary to popular belief, Lorem Ipsum is not</h5>
+									<span class="adprice">$190</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:30</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk4.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">The standard chunk of Lorem Ipsum used since the</h5>
+									<span class="adprice">$480</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:25</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk5.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h5>
+									<span class="adprice">$859</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:24</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk6.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">But I must explain to you how all this mistaken idea of denouncing</h5>
+									<span class="adprice">$1299</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:22</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk1.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</h5>
+									<span class="adprice">$1099</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:21</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk7.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">On the other hand, we denounce with righteous dislike men</h5>
+									<span class="adprice">$290</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:20</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk8.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
+									<span class="adprice">$899</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:05</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk9.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et qua</h5>
+									<span class="adprice">$199</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:04</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk10.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">There are many variations of passages of Lorem Ipsum</h5>
+									<span class="adprice">$250</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:03</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk11.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">who are so beguiled and demoralized by the charms of pleasure of the moment</h5>
+									<span class="adprice">$189</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:03</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk12.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">you need to be sure there isn't anything embarrassing hidden</h5>
+									<span class="adprice">$1090</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:03</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="/single.jsp">
+									<li>
+									<img src="/resources/images/bk13.jpg" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">looked up one of the more obscure Latin words</h5>
+									<span class="adprice">$599</span>
+									<p class="catpath">Motorcycles » Bajaj</p>
+									</section>
+									<section class="list-right">
+									<span class="date">Today, 17:02</span>
+									<span class="cityname">City name</span>
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								<div class="clearfix"></div>
+								</a>
+							</ul>
+						</div>
+							</div>
+						</div>
 						<ul class="pagination pagination-sm">
 							<li><a href="#">Prev</a></li>
 							<li><a href="#">1</a></li>
@@ -1008,5 +1265,6 @@
 			</div>
 		</div>	
 	</div>
-	<!-- // Kids -->
-<%@include file="./includes/footer.jsp"%>
+	<!-- // Bikes -->
+		
+	<%@include file="./includes/footer.jsp"%>
