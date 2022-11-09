@@ -4,7 +4,7 @@
 	<!-- breadcrumbs -->
 	<div class="w3layouts-breadcrumbs text-center">
 		<div class="container">
-			<span class="agile-breadcrumbs"><a href="index.jsp"><i class="fa fa-home home_1"></i></a> / <span>Feedback</span></span>
+			<span class="agile-breadcrumbs"><a href="/"><i class="fa fa-home home_1"></i></a> / <span>Feedback</span></span>
 		</div>
 	</div>
 	<!-- //breadcrumbs -->

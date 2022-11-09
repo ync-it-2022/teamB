@@ -19,7 +19,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<input type="password" name="Password" placeholder="Confirm Password" required=""> 
 					<div class="signin-rit">
 						<span class="agree-checkbox">
-							<label class="checkbox"><input type="checkbox" name="checkbox">I agree to your <a class="w3layouts-t" href="terms.html" target="_blank">Terms of Use</a> and <a class="w3layouts-t" href="privacy.html" target="_blank">Privacy Policy</a></label>
+							<label class="checkbox">
+							<input type="checkbox" name="checkbox">I agree to your 
+							<a class="w3layouts-t" href="terms.html" target="_blank">Terms of Use</a> and 
+							<a class="w3layouts-t" href="/customerservice/privacy" target="_blank">Privacy Policy</a>
+							</label>
 						</span>
 					</div>
 					<input type="submit" value="Sign Up">

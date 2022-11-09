@@ -173,7 +173,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
       </div>
       <div class="col-md-3">
         <div class="focus-grid w3layouts-boder10">
-          <a class="btn-8" href="/categories.jsp#parentVerticalTab10">
+          <a class="btn-8" href="/categories/cars#parentVerticalTab10">
             <div class="focus-border">
               <div class="focus-layout">
                 <div class="focus-image">
@@ -205,10 +205,10 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
         </div>
         <div class="portfolio-description">
           <h4>
-            <a href="/cars.jsp">Latest Cars</a>
+            <a href="/categories/cars">Latest Cars</a>
           </h4>
           <p>Suspendisse placerat mattis arcu nec por</p>
-          <a href=" /cars.jsp"> <span>Explore</span> </a>
+          <a href=" /categories/cars"> <span>Explore</span> </a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -223,10 +223,10 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
         </div>
         <div class="portfolio-description">
           <h4>
-            <a href="/real-estate.jsp">Apartments for Sale</a>
+            <a href="/categories/real-estate">Apartments for Sale</a>
           </h4>
           <p>Suspendisse placerat mattis arcu nec por</p>
-          <a href=" /real-estate.jsp"> <span>Explore</span> </a>
+          <a href="/categories/real-estate"> <span>Explore</span> </a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -242,10 +242,10 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
         </div>
         <div class="portfolio-description">
           <h4>
-            <a href="/jobs.jsp">BPO jobs</a>
+            <a href="/categories/jobs">BPO jobs</a>
           </h4>
           <p>Suspendisse placerat mattis arcu nec por</p>
-          <a href=" /jobs.jsp"> <span>Explore</span> </a>
+          <a href="/categories/jobs"> <span>Explore</span> </a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -260,10 +260,10 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
         </div>
         <div class="portfolio-description">
           <h4>
-            <a href="/electronics-appliances.jsp">Accessories</a>
+            <a href="/categories//electronics-appliances">Accessories</a>
           </h4>
           <p>Suspendisse placerat mattis arcu nec por</p>
-          <a href="/electronics-appliances.jsp"> <span>Explore</span> </a>
+          <a href="/categories/electronics-appliances"> <span>Explore</span> </a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -278,10 +278,10 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
         </div>
         <div class="portfolio-description">
           <h4>
-            <a href="furnitures.jsp">Home Appliances</a>
+            <a href="/categories/furnitures">Home Appliances</a>
           </h4>
           <p>Suspendisse placerat mattis arcu nec por</p>
-          <a href=" furnitures.jsp"> <span>Explore</span> </a>
+          <a href="/categories/furnitures"> <span>Explore</span> </a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -296,10 +296,10 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
         </div>
         <div class="portfolio-description">
           <h4>
-            <a href="/fashion.jsp">Clothing</a>
+            <a href="/categories/fashion">Clothing</a>
           </h4>
           <p>Suspendisse placerat mattis arcu nec por</p>
-          <a href="/fashion.jsp"> <span>Explore</span> </a>
+          <a href="/categories/fashion"> <span>Explore</span> </a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -315,7 +315,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
         <ul id="flexiselDemo3">
           <li>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p1.jpg" alt="" />
                 <span class="price">&#36; 450</span>
               </a>
@@ -325,7 +325,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p2.jpg" alt="" />
                 <span class="price">&#36; 399</span>
               </a>
@@ -335,7 +335,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p3.jpg" alt="" />
                 <span class="price">&#36; 199</span>
               </a>
@@ -345,7 +345,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p4.jpg" alt="" />
                 <span class="price">&#36; 159</span>
               </a>
@@ -357,7 +357,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
           </li>
           <li>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p5.jpg" alt="" />
                 <span class="price">&#36; 1599</span>
               </a>
@@ -367,7 +367,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p6.jpg" alt="" />
                 <span class="price">&#36; 1099</span>
               </a>
@@ -377,7 +377,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p7.jpg" alt="" />
                 <span class="price">&#36; 109</span>
               </a>
@@ -387,7 +387,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p8.jpg" alt="" />
                 <span class="price">&#36; 189</span>
               </a>
@@ -399,7 +399,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
           </li>
           <li>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p9.jpg" alt="" />
                 <span class="price">&#36; 2599</span>
               </a>
@@ -409,7 +409,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p10.jpg" alt="" />
                 <span class="price">&#36; 3999</span>
               </a>
@@ -419,7 +419,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p11.jpg" alt="" />
                 <span class="price">&#36; 2699</span>
               </a>
@@ -429,7 +429,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
               </div>
             </div>
             <div class="col-md-3 biseller-column">
-              <a href="/single.jsp">
+              <a href="/sellboard/single">
                 <img src="/resources/images/p12.jpg" alt="" />
                 <span class="price">&#36; 899</span>
               </a>
@@ -510,7 +510,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
   <div class="agile-info-mobile-app">
     <div class="container">
       <div class="col-md-5 w3-app-left">
-        <a href="/mobileapp.jsp"
+        <a href="/categories/mobileapp"
           ><img src="/resources/images/app.png" alt=""
         /></a>
       </div>

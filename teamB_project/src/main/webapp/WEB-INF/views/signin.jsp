@@ -37,7 +37,7 @@
 						<div class="clearfix"> </div>
 					</div>
 				</form>
-				<h6> Not a Member Yet? <a href="signup.html">Sign Up Now</a> </h6>
+				<h6> Not a Member Yet? <a href="signup">Sign Up Now</a> </h6>
 			</div>
 		</div>
 	</section>

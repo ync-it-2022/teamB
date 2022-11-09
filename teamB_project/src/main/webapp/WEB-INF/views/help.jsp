@@ -18,7 +18,7 @@
 					<input type="submit" value="submit">
 				</form>
 				<h5>OR</h5>
-				<a href="contact.jsp">Contact Us</a>
+				<a href="/customerservice/contact">Contact Us</a>
 			</div>
 			<h2 class="w3-head">Frequently asked Questions</h2>
 			<dl class="faq-list">

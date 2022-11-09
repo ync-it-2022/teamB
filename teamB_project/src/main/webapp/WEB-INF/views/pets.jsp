@@ -813,7 +813,7 @@
 								</a>
 								<a href="single.jsp">
 									<li>
-									<img src="images/d3.jpg" title="" alt="" />
+									<img src="/resources/images/d3.jpg" title="" alt="" />
 									<section class="list-left">
 									<h5 class="title">Contrary to popular belief, Lorem Ipsum is not</h5>
 									<span class="adprice">$190</span>

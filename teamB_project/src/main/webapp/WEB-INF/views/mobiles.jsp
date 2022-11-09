@@ -1,6 +1,34 @@
 <%@include file="./includes/header.jsp"%>
-	<!-- breadcrumbs -->
-	<div class="w3layouts-breadcrumbs text-center">
+<!-- js -->
+<script type="text/javascript" src="/includes/js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/includes/js/bootstrap.js"></script>
+<script src="/includes/js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+
+
+<!-- breadcrumbs -->
+<div class="w3layouts-breadcrumbs text-center">
 		<div class="container">
 			<span class="agile-breadcrumbs">
 			<a href="/"><i class="fa fa-home home_1"></i></a> / 
@@ -483,7 +511,7 @@
 				<div class="w3ls-featured-ads">
 					<h2 class="sear-head fer">Featured Ads</h2>
 					<div class="w3l-featured-ad">
-						<a href="single.jsp">
+						<a href="/sellboard/single">
 							<div class="w3-featured-ad-left">
 								<img src="/resources/images/f1.jpg" title="ad image" alt="" />
 							</div>
@@ -495,7 +523,7 @@
 						</a>
 					</div>
 					<div class="w3l-featured-ad">
-						<a href="single.jsp">
+						<a href="/sellboard/single">
 							<div class="w3-featured-ad-left">
 								<img src="/resources/images/f2.jpg" title="ad image" alt="" />
 							</div>
@@ -507,7 +535,7 @@
 						</a>
 					</div>
 					<div class="w3l-featured-ad">
-						<a href="single.jsp">
+						<a href="/sellboard/single">
 							<div class="w3-featured-ad-left">
 								<img src="/resources/images/f3.jpg" title="ad image" alt="" />
 							</div>
@@ -562,7 +590,7 @@
 									 </div>
 								<div class="clearfix"></div>
 							<ul class="list">
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m1.jpg" title="" alt="" />
 									<section class="list-left">
@@ -577,7 +605,7 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m2.jpg" title="" alt="" />
 									<section class="list-left">
@@ -592,7 +620,7 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m3.jpg" title="" alt="" />
 									<section class="list-left">
@@ -607,7 +635,7 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m4.jpg" title="" alt="" />
 									<section class="list-left">
@@ -622,7 +650,7 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m5.jpg" title="" alt="" />
 									<section class="list-left">
@@ -637,7 +665,7 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m6.jpg" title="" alt="" />
 									<section class="list-left">
@@ -667,7 +695,7 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m7.jpg" title="" alt="" />
 									<section class="list-left">
@@ -682,7 +710,7 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m8.jpg" title="" alt="" />
 									<section class="list-left">
@@ -697,7 +725,7 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.jsp">
+								<a href="/sellboard/single">
 									<li>
 									<img src="/resources/images/m9.jpg" title="" alt="" />
 									<section class="list-left">

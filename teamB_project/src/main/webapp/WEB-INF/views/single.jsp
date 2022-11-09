@@ -1,11 +1,64 @@
 <%@include file="./includes/header.jsp"%>
+<!-- js -->
+<script type="text/javascript" src="/resources/js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/resources/js/bootstrap.js"></script>
+<script src="/resources/js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+<!-- language-select -->
+<script type="text/javascript" src="/resources/js/jquery.leanModal.min.js"></script>
+<link href="/resources/css/jquery.uls.css" rel="stylesheet"/>
+<link href="/resources/css/jquery.uls.grid.css" rel="stylesheet"/>
+<link href="/resources/css/jquery.uls.lcd.css" rel="stylesheet"/>
+<!-- Source -->
+<script src="/resources/js/jquery.uls.data.js"></script>
+<script src="/resources/js/jquery.uls.data.utils.js"></script>
+<script src="/resources/js/jquery.uls.lcd.js"></script>
+<script src="/resources/js/jquery.uls.languagefilter.js"></script>
+<script src="/resources/js/jquery.uls.regionfilter.js"></script>
+<script src="/resources/js/jquery.uls.core.js"></script>
+<script>
+			$( document ).ready( function() {
+				$( '.uls-trigger' ).uls( {
+					onSelect : function( language ) {
+						var languageName = $.uls.data.getAutonym( language );
+						$( '.uls-trigger' ).text( languageName );
+					},
+					quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] //FIXME
+				} );
+			} );
+		</script>
+<!-- //language-select -->
+
+<link rel="stylesheet" href="css/flexslider.css" media="screen" /><!-- flexslider css -->
+
 	<!-- breadcrumbs -->
 	<div class="w3layouts-breadcrumbs text-center">
 		<div class="container">
 			<span class="agile-breadcrumbs">
 			<a href="/"><i class="fa fa-home home_1"></i></a> / 
 			<a href="all-classifieds.jsp">All Ads</a> / 
-			<a href="cars.jsp">Cars</a> / 
+			<a href="/categories/cars">Cars</a> / 
 			<span>Car name</span></span>
 		</div>
 	</div>
