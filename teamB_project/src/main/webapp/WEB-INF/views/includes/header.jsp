@@ -475,7 +475,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="agile-its-header">
 				<div class="logo">
-					<h1><a href="index.html"><span>Re</span>sale-v2</a></h1>
+					<h1><a href="/"><span>Re</span>sale-v2</a></h1>
 				</div>
 				<div class="agileits_search">
 					<form action="#" method="post">
