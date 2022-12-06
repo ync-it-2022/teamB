@@ -55,9 +55,15 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
       </div>
       <div class="col-md-3">
         <div class="focus-grid w3layouts-boder2">
-          <a
+<!--            <a
             class="btn-8"
             href="/categories/electronics-appliances#parentVerticalTab2"
+          > -->
+          
+          
+                     <a
+            class="btn-8"
+            href="./electronics-appliances"
           >
             <div class="focus-border">
               <div class="focus-layout">
