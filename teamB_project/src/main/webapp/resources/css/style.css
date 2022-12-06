@@ -3450,6 +3450,7 @@ h3.rate {
     padding: 30px 30px;
     margin: 40px 0;
     border-radius: 6px;
+    min-width: 250px;	/* 글자 안 벗어나게 서브 카테고리 메뉴 최소 넓이 지정 */
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
@@ -3641,6 +3642,47 @@ h2.sear-head.fer {
     text-align: right;
     margin-top: 12px;
 }
+
+/* 페이지네비션 가운데 정렬 */
+#pagination_div{
+	text-align : center;
+	/* margin: auto; */
+}
+
+/* 정렬 기준(시작) */
+.sort .sort_ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	display:flex;
+  flex-flow: row nowrap;
+}
+.sort .sort_ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sort .sort_ul li a {
+	text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+.sort .sort_ul li::after{
+  content: "|";
+	align-items: center;
+}
+
+.sort .sort_ul li:last-child::after{
+  content: "";
+}
+
+.sort .sort_ul li>a{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* 정렬 기준(끝) */
+
 /*-- //Slider range --*/
 /**
  * Responsive Bootstrap Tabs by @hayatbiralem
@@ -3879,6 +3921,11 @@ span.adprice {
     margin-left: 3%;
     float: left;
 }
+/* 목록 깨짐 방지 */
+.list-left .title_div {
+		height : 60px;
+		padding-top : 5px;
+}
 #container .list li .list-right{
     width: 15%;
     float: right;
@@ -3945,14 +3992,20 @@ span.cityname{
 #container .grid{
 width: 100%;
 }
+
+/* 글자자동 조절로 화면 커지면 같이 커져서 페이지 화면이 커지면 화면 깨지는 문제 발생 */
+/* 문제 해결 : letter-spacing(글자사이 간격 설정) 삭제 */
 h5.title {
-    overflow: hidden;
-    word-wrap: break-word;
-    font-size: 20px;
+		overflow: hidden;
+		white-space: normal;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		word-wrap: break-word;
+		font-size: 18px;
     text-decoration: none;
     color: #000000;
     font-weight: 500;
-    letter-spacing: 1px;
 }
 
 /* SWITCH CONTROLS */
@@ -4040,11 +4093,13 @@ i.glyphicon.glyphicon-th,i.glyphicon.glyphicon-th-list {
 section.list-right span.price:after {
     content: none;
 }
+/* margin-right 추가 */
 #container .grid li .list-left {
     text-align: left;
     font-size: 15px;
     margin-left: 10px;
     margin-top: 10px;
+		margin-right: 10px;
 }
 /*-- //products-page --*/
 
@@ -6902,6 +6957,47 @@ label {
 	}
 }
 
+
+/* 서브 카테고리 메뉴(시작) */
+.webtong_tab_type02 li.on a, .webtong_tab_type02 li:hover a,
+.webtong_tab_type02 li.on a:before, .webtong_tab_type02 li:hover a:before
+{
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s
+}
+
+#contents {padding: 10px}
+#contents h3 {font-weight:600; padding-bottom:20px}
+
+.webtong_tab_type02 { display:table; width:100%; table-layout:fixed; border-left:1px solid #e7e7e7;position:relative;background-color: #f1f1f1; background-color:transparent;}
+.webtong_tab_type02 li:nth-child(n+5) {display:table-row}
+.webtong_tab_type02 li { overflow:inherit;display:table-cell; height:50px; }
+.webtong_tab_type02 li a { white-space: nowrap; display:block; position:relative; height:50px; border-top:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;line-height:50px;text-align:center;background-color: #fff; font-size: 16px; color: #454545; font-family: 'Noto Sans KR', sans-serif}
+.webtong_tab_type02 li a:after { content:''; display:block; position:absolute; top:0; right:0; bottom:0; width:1px; background:#e6e3df}
+.webtong_tab_type02 li.on a, .webtong_tab_type02 li:hover a {border-bottom-color:#f34b53; border-top:1px solid #f34b53;z-index: 1;background-color: #fd7c82;color:#fff}
+.webtong_tab_type02 li.on a:after, .webtong_tab_type02 li:hover a:after { content:''; display:block; position:absolute; top:0; right:0; bottom:-1px; width:1px; background:#f34b53}
+.webtong_tab_type02 li.on a:before, .webtong_tab_type02 li:hover a:before { content:''; display:block; position:absolute; top:0; left:0; bottom:-1px; width:1px; background:#f34b53}
+
+/* 사이트 창의 넓이가 780px이하 일 때 */
+@media screen and (max-width: 780px) {
+	.webtong_tab_type02 li {float: left; width: 25%; }
+	.webtong_tab_type02 li:nth-child(n+7) {margin-top: -1px;}
+	.webtong_tab_type02:before {content: '';background-color: #e7e7e7; bottom: 0;right: 0;top: 0;position: absolute}
+	.webtong_tab_type02:after {content: '';background-color: #e7e7e7; bottom: 0;right: 0;position: absolute;left: 0}
+}
+
+/* 사이트 창의 넓이가 520px이하 일 때 글자가 칸을 벗을나는 문제 발생 */
+/* 그래서 넓이가 520px이하가 되면 서브 카테고리 메뉴가 세로로 바뀐다 */
+/* 추후 select로 바꾸거나 형태를 깔끔하게 바꿀 것 */
+@media screen and (max-width: 520px) {
+	.webtong_tab_type02 li {float: left; width: 100%; }
+	.webtong_tab_type02 li:nth-child(n+7) {margin-top: -1px;}
+	.webtong_tab_type02:before {content: '';background-color: #e7e7e7; bottom: 0;right: 0;top: 0;position: absolute}
+	.webtong_tab_type02:after {content: '';background-color: #e7e7e7; bottom: 0;right: 0;position: absolute;left: 0}
+}
+/* 서브 카테고리 메뉴(끝) */
 
 
 
