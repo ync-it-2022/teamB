@@ -63,7 +63,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
           
                      <a
             class="btn-8"
-            href="./electronics-appliances"
+            href="/categories/electronics-appliances"
           >
             <div class="focus-border">
               <div class="focus-layout">
