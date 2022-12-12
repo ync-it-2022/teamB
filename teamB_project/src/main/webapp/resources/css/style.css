@@ -2158,7 +2158,7 @@ ul.location li:nth-child(2) {
 
 /*-- breadcrumbs --*/
 .w3layouts-breadcrumbs {
-	background:#0099e5;
+	background:#ffc107;
 	padding:11px 0;
 	text-align:left;
 }
@@ -2167,14 +2167,14 @@ span.agile-breadcrumbs {
     font-size: 15px;
 }
 span.agile-breadcrumbs a {
-	color:#d0eaf7;
+	color:#fff;
 	margin:0 5px;
 }
 span.agile-breadcrumbs a:hover {
-	color:#fff;
+	color:#184B98;
 }
 span.agile-breadcrumbs a i {
-    color: #d0eaf7;
+    color: #fff;
     font-size: 16px;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -2183,7 +2183,7 @@ span.agile-breadcrumbs a i {
 	-moz-transition:0.5s all;
 }
 span.agile-breadcrumbs a i:hover  {
-    color: #fff;
+    color: #184B98;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-o-transition:0.5s all;
@@ -3757,14 +3757,14 @@ h2.sear-head.fer {
 
 /* 글작성 버튼 */
 /* 버튼 기본 스타일 제거 */
-#contents .new_post {
+#contents .new_post, #container .list_new_post {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
 /* 버튼 기본 설정 */
-#contents .new_post {
+#contents .new_post, #container .list_new_post {
   /* 생략 */
   /* margin: 10px; */
   padding: 1.0rem 2rem;
@@ -3782,8 +3782,9 @@ h2.sear-head.fer {
   border-radius: 4px;
 }
 
+
 /* 버튼 효과 */
-#contents .new_post {
+#contents .new_post, #container .list_new_post {
   /* 생략 */
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
@@ -3794,11 +3795,14 @@ h2.sear-head.fer {
 
 #contents .new_post:active,
 .new_post:hover,
-.new_post:focus {
+.new_post:focus,
+#container .list_new_post:active,
+.list_new_post:hover,
+.list_new_post:focus {
   background: var(--button-hover-bg-color);
   outline: 0;
 }
-.new_post:disabled {
+.new_post:disabled, .list_new_post:disabled {
   opacity: 0.5;
 }
 
@@ -3808,13 +3812,13 @@ h2.sear-head.fer {
   --button-hover-bg-color: #025ce2;
 }
 
-#contents .new_post {
+#contents .new_post, #container .list_new_post {
   /* 생략 */
   background: var(--button-bg-color);
   color: var(--button-color);
 }
 
-#contents .new_post {
+#contents .new_post, #container .list_new_post {
   --button-color: #212529;
   --button-bg-color: #ffc107;
   --button-hover-bg-color: #e0a800;
@@ -3825,6 +3829,13 @@ h2.sear-head.fer {
 #contents .new_post {
 	float: right;
 }
+
+#container .list_new_post {
+	margin-bottom: 10px;
+	margin-left: 5px;
+	width: 100px;
+}
+
 
 /*-- //Slider range --*/
 /**
@@ -7283,4 +7294,57 @@ label {
   top: 10px;
   right: 12px;
   margin: 0;
+}
+
+/* 게시글 목록 */
+.list_box {
+	margin-bottom: 20px;
+	margin-top : 10px;
+}
+
+.list_container {
+	margin : 0 15px;
+
+}
+
+.list_box .pagination {
+	margin: 0 0 15px 0;
+	display : flex;
+	justify-content : center;
+}
+
+/* 표 배경색(회색) 제거 */
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background: white;
+}
+
+.list_tbody .list_table_num_1 {
+	text-align : center;
+  vertical-align : middle;
+	width: 12%;
+}
+
+.list_tbody .list_table_title > h4 {
+	text-align : left;
+}
+
+.list_tbody .list_table_name {
+	border-top : none !important;
+	text-align: left !important;
+	/* padding: 0 0 0 15px !important; */
+}
+
+.list_tbody .list_table_width {
+	/* padding: 0 0 0 15px !important; */
+	width: 9%;
+}
+
+.list_tbody .list_table_num_2 {
+	text-align : center;
+	vertical-align : middle;
+	width : 12%;
+}
+
+.list_tbody .list_table_name > td {
+	padding: 0 0 6px 15px !important;
 }

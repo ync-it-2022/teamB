@@ -118,294 +118,216 @@
 		</div>
 
 
-		<div class="agileinfo-ads-display col-md-9">
+		<div class="list_box">
 					<div class="wrapper">					
 					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-					  <ul id="myTab" class="nav nav-tabs nav-tabs-responsive" role="tablist">
-					  </ul>
 					  <div id="myTabContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
 						   <div>
-												<div id="container">
-								<div class="view-controls-list" id="viewcontrols">
-									<label>view :</label>
-									<a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
-									<a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
-								</div>
+								<div id="container">
+								
+								<button class="list_new_post">글쓰기</button>
+                    			<!-- <a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a> -->
+								
+						<div class="sort">
+								   <div class="sort-by">
+										<label>정렬 기준 : </label>
+										<select>
+														<option value="">정확도순</option>
+														<option value="">최신순</option>
+														<option value="">저가순</option>
+                            <option value="">고가순</option>
+										</select>
+									   </div>
+									</div>
 								<div class="clearfix"></div>
-							<ul class="list">
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e1.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">There are many variations of passages of Lorem Ipsum</h5></div>
-									<span class="adprice">$290</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:55</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e2.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">It is a long established fact that a reader</h5></div>
-									<span class="adprice">$310</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:45</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e3.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">Contrary to popular belief, Lorem Ipsum is not</h5></div>
-									<span class="adprice">$190</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:30</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e4.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">The standard chunk of Lorem Ipsum used since the</h5></div>
-									<span class="adprice">$480</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:25</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e5.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h5></div>
-									<span class="adprice">$859</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:24</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e6.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">But I must explain to you how all this mistaken idea of denouncing</h5></div>
-									<span class="adprice">$1299</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:22</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e1.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</h5></div>
-									<span class="adprice">$1099</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:21</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e7.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">On the other hand, we denounce with righteous dislike men</h5></div>
-									<span class="adprice">$290</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:20</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e8.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">There are many variations of passages of Lorem Ipsum</h5></div>
-									<span class="adprice">$899</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:05</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e9.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et qua</h5></div>
-									<span class="adprice">$199</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:04</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e10.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">There are many variations of passages of Lorem Ipsum</h5></div>
-									<span class="adprice">$250</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:03</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e11.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">who are so beguiled and demoralized by the charms of pleasure of the moment</h5></div>
-									<span class="adprice">$189</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:03</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e12.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">you need to be sure there isn't anything embarrassing hidden</h5></div>
-									<span class="adprice">$1090</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:03</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="/single.jsp">
-									<li>
-									<img src="/resources/images/e13.jpg" title="" alt="" />
-									<section class="list-left">
-									<div class="title_div"><h5 class="title">looked up one of the more obscure Latin words</h5></div>
-									<span class="adprice">$599</span>
-									<p class="catpath">Computers & Accessories ÃÂ» Laptops</p>
-									</section>
-									<section class="list-right">
-									<span class="date">Today, 17:02</span>
-									<span class="cityname">City name</span>
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								<div class="clearfix"></div>
-								</a>
-								<a href="/single.jsp">
-				                  <li>
-				                  <img src="images/e11.jpg" title="" alt="" />
-				                  <section class="list-left">
-				                  <div class="title_div"><h5 class="title">who are so beguiled and demoralized by the charms of pleasure of the moment</h5></div>
-				                  <span class="adprice">$189</span>
-				                  <p class="catpath">Computers & Accessories Â» Laptops</p>
-				                  </section>
-				                  <section class="list-right">
-				                  <span class="date">Today, 17:03</span>
-				                  <span class="cityname">City name</span>
-				                  </section>
-				                  <div class="clearfix"></div>
-				                  </li>
-				                </a>
-				                <a href="/single.jsp">
-				                  <li>
-				                  <img src="images/e9.jpg" title="" alt="" />
-				                  <section class="list-left">
-				                  <div class="title_div"><h5 class="title">ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et qua</h5></div>
-				                  <span class="adprice">$199</span>
-				                  <p class="catpath">Computers & Accessories Â» Laptops</p>
-				                  </section>
-				                  <section class="list-right">
-				                  <span class="date">Today, 17:04</span>
-				                  <span class="cityname">City name</span>
-				                  </section>
-				                  <div class="clearfix"></div>
-				                  </li>
-				                </a>
-				                <a href="/single.jsp">
-				                  <li>
-				                  <img src="images/e10.jpg" title="" alt="" />
-				                  <section class="list-left">
-				                  <div class="title_div"><h5 class="title">There are many variations of passages of Lorem Ipsum</h5></div>
-				                  <span class="adprice">$250</span>
-				                  <p class="catpath">Computers & Accessories Â» Laptops</p>
-				                  </section>
-				                  <section class="list-right">
-				                  <span class="date">Today, 17:03</span>
-				                  <span class="cityname">City name</span>
-				                  </section>
-				                  <div class="clearfix"></div>
-				                  </li>
-				                </a>
-				                <a href="/single.jsp">
-				                  <li>
-				                  <img src="images/e11.jpg" title="" alt="" />
-				                  <section class="list-left">
-				                  <div class="title_div"><h5 class="title">who are so beguiled and demoralized by the charms of pleasure of the moment</h5></div>
-				                  <span class="adprice">$189</span>
-				                  <p class="catpath">Computers & Accessories Â» Laptops</p>
-				                  </section>
-				                  <section class="list-right">
-				                  <span class="date">Today, 17:03</span>
-				                  <span class="cityname">City name</span>
-				                  </section>
-				                  <div class="clearfix"></div>
-				                  </li>
-				                </a>
-							</ul>
+
+	<div class="list_container">
+		<div class="row">
+			<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd; background: white;">
+        <!-- thead 는 추후 삭제 -->
+				<thead>
+					<tr>
+						<th style="background-color: #eeeeee; text-align: center;">글번호</th>
+						<th style="background-color: #eeeeee; text-align: center;">제목</th>
+						<th style="background-color: #eeeeee; text-align: center;">카테고리</th>
+						<th style="background-color: #eeeeee; text-align: center;">작성자</th>
+            <th style="background-color: #eeeeee; text-align: center;">조회수</th>
+          </tr>
+				</thead>
+				<tbody class="list_tbody">
+          <tr>
+						<td rowspan="2" class="list_table_num_1">1</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">2</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">3</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">4</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">5</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">6</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">7</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">8</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">9</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+
+          <tr>
+						<td rowspan="2" class="list_table_num_1">10</td>
+						<td colspan="3" class="list_table_title">
+              <h4>글 제목</h4>
+            </td>
+						<td rowspan="2" class="list_table_num_2">조회수 80</td>
+					</tr>
+          <tr class="list_table_name">
+						<td class="list_table_width">카테고리</td>
+						<td class="list_table_width">홍길동</td>
+						<td>2017-05-04</td>
+					</tr>
+				</tbody>
+
+        <!-- db에서 데이터 조회 할 때 -->
+					<!-- <tbody>
+						<c:choose>
+							<c:when test="${empty list}">
+								<tr class="gradeU">
+									<td>-</td>
+
+									<td>-</td>
+									<td>-</td>
+									<td class="center">-</td>
+									<td class="center">-</td>
+								</tr>
+							</c:when>
+							<c:when test="${!empty list}">
+								<c:forEach items="${list}" var="emp">
+									<tr class="gradeU">
+										<td><c:out value="${emp.emp_no}" /></td>
+										<td><c:out value="${emp.first_name} ${emp.last_name}" /></td>
+										<td><c:if test="${emp.gender eq 'M'}">
+												남성
+											</c:if> <c:if test="${emp.gender eq 'F'}">
+												여성
+											</c:if></td>
+										<td class="center"><fmt:formatDate pattern="yyyy-MM-dd"
+												value="${emp.birth_date}" /></td>
+										<td class="center"><fmt:formatDate pattern="yyyy-MM-dd"
+												value="${emp.hire_date}" /></td>
+									</tr>
+								</c:forEach>
+							</c:when>
+						</c:choose>
+
+
+					</tbody> -->
+
+			</table>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	
+	
 						</div>
 							</div>
 						</div>
