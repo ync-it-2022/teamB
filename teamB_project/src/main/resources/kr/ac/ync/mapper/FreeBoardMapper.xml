@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.ac.ync.mapper.FreeBoardMapper">
+
+	<insert id="insertSelectKey">
+		
+		<selectKey keyProperty="free_board_idx" order="BEFORE"	resultType="long">
+			select seq_free_board.nextval from dual
+		</selectKey>
+
+		INSERT INTO free_board (free_board_idx,
+							   free_board_title,
+							   free_board_contents,
+							   userid,
+							   categories					   
+							   )
+		VALUES (seq_free_board.nextval,
+				#{free_board_title},
+				#{free_board_contents},
+				#{writer},
+				#{categories}
+				)
+			
+	</insert>
+		
+	<select id="read" resultType="kr.ac.ync.domain.FreeBoardVO">
+		select * from free_board where free_board_idx = #{free_board_idx}
+	</select>
+
+
+	<delete id="delete">
+		delete free_board where free_board_idx = #{free_board_idx}
+	</delete>
+ 
+	<update id="update">
+		update	free_board
+		set		free_board_title= #{free_board_title},
+				free_board_contents=#{free_board_contents},
+				userid = #{writer},
+				free_board_modify_at = sysdate
+		where 	free_board_idx = #{free_board_idx}
+	</update>
+	
+
+	
+	<update id="updateRecommendCnt">
+		update free_board set free_board_recommend_count = free_board_recommend_count + #{free_board_recommend_count} where free_board_idx = #{free_board_idx}
+	</update> 
+	
+	<update id="updateViewCnt">
+		update free_board set free_board_view_count = free_board_view_count + #{free_board_view_count} where free_board_idx = #{free_board_idx}
+	</update> 
+
+</mapper>
