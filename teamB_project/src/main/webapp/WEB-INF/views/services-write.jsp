@@ -30,7 +30,7 @@
 		<div class="container">
 			<span class="agile-breadcrumbs">
 			<a href="/index.jsp"><i class="fa fa-home home_1"></i></a> / 
-			<a href="/services.jsp">ê²ìí</a>
+			<a href="/services-write.jsp">게시판 작성</a>
 		    </span>
 		</div>
 	</div>

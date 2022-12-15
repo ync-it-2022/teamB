@@ -222,9 +222,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							<div class="sub-categories">
 								<ul>
-									<li><a href="/kids.jsp">Furniture And Toys</a></li>
+									<li><a href="/services-write.jsp">Furniture And Toys</a></li>
+									<li><a href="/services-write.jsp">Prams & Walkers</a></li>
+									<li><a href="/services-write.jsp">Accessories</a></li>
+<!-- 									<li><a href="/kids.jsp">Furniture And Toys</a></li>
 									<li><a href="/kids.jsp">Prams & Walkers</a></li>
-									<li><a href="/kids.jsp">Accessories</a></li>
+									<li><a href="/kids.jsp">Accessories</a></li> -->
 								</ul>
 							</div>
 						</div>

@@ -1,5 +1,10 @@
 
 	<%@include file="./includes/header.jsp"%>
+	
+	<!-- 한글 깨짐 방지 -->
+	<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
 
 	<!-- breadcrumbs -->
 	<div class="w3layouts-breadcrumbs text-center">

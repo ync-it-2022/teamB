@@ -165,7 +165,8 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
       </div>
       <div class="col-md-3">
         <div class="focus-grid w3layouts-boder9">
-          <a class="btn-8" href="/categories/kids#parentVerticalTab9">
+          <a class="btn-8" href="/categories/services-write">
+<!--            <a class="btn-8" href="/categories/kids#parentVerticalTab9"> -->
             <div class="focus-border">
               <div class="focus-layout">
                 <div class="focus-image">
