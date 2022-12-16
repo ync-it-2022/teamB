@@ -180,7 +180,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
       </div>
       <div class="col-md-3">
         <div class="focus-grid w3layouts-boder10">
-          <a class="btn-8" href="./services.jsp">
+          <a class="btn-8" href="src/main/WEB-INF/views/services.jsp">
             <div class="focus-border">
               <div class="focus-layout">
                 <div class="focus-image">
