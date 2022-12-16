@@ -78,7 +78,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
       </div>
       <div class="col-md-3">
         <div class="focus-grid w3layouts-boder3">
-          <a class="btn-8" href="/categories/cars#parentVerticalTab3">
+          <a class="btn-8" href="/categories/services">
             <div class="focus-border">
               <div class="focus-layout">
                 <div class="focus-image">
