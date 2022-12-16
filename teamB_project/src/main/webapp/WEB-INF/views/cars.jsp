@@ -10,9 +10,7 @@
 		<div class="container">
 			<span class="agile-breadcrumbs">
 			<a href="/index.jsp"><i class="fa fa-home home_1"></i></a> / 
-			<a href="/categories/cars">디지털기기</a>
-		       <!-- /
-					<span>Electronics & Appliances</span> -->
+			<a href="/categories/cars">게시판</a>
 		    </span>
 		</div>
 	</div>
@@ -140,7 +138,7 @@
 								<div>
 									<div id="container">
 	
-										<button class="list_new_post" onclick="location.href='../boardwriter.jsp'">글쓰기</button>
+										<button class="list_new_post" onclick="location.href='/boardwriter.jsp'">글쓰기</button>
 										<!-- <a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a> -->
 	
 										<div class="sort">

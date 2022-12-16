@@ -178,7 +178,10 @@ header {
 	text-decoration:none;
 }
 .logo a span {
-	color:#0099e5;
+/* 	color:#0099e5; */
+	color: #F5DF4D;
+    FONT-SIZE: 45px;
+    font-weight: bold;
 }
 .agileits_search input[type="text"] {
     outline: none;
@@ -211,7 +214,7 @@ header {
     height: 42px;
     outline: none;
     box-shadow: none;
-    background: #ff4c4c;
+    background: #F5DF4D;
     padding: 0;
     border-radius: inherit;
     -webkit-appearance: none;

@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
-<title>Resale_v2 a Classified ads Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>トリマーケット</title>
 <link rel="stylesheet" href="/resources/css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="/resources/css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="/resources/css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -476,30 +476,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <div class="container">
          <div class="agile-its-header">
             <div class="logo">
-               <h1><a href="/"><span>Re</span>sale-v2</a></h1>
+               <h1><a href="/">
+               <img src="/resources/images/tori.png" title="logo_image" alt="" />
+               <span>トリマーケット</span>
+               <!-- sale-v2 -->
+               </a></h1>
             </div>
             <div class="agileits_search">
                <form action="#" method="post">
-                  <input name="Search" type="text" placeholder="How can we help you today?" required="" />
+               	 <!--  <input name="Search" type="text" placeholder="How can we help you today?" required="" /> -->
+                  <input name="Search" type="text" placeholder="검색" required="" />
                   <select id="agileinfo_search" name="agileinfo_search" required="">
-                     <option value="">All Categories</option>
-                     <option value="Mobiles">Mobiles</option>
-                     <option value="Electronics & Appliances">Electronics & Appliances</option>
-                     <option value="Cars">Cars</option>
-                     <option value="Bikes">Bikes</option>
-                     <option value="Furnitures">Furnitures</option>
-                     <option value="Books, Sports & Hobbies">Books, Sports & Hobbies</option>
-                     <option value="Fashion">Fashion</option>
-                     <option value="Kids">Kids</option>
-                     <option value="Services">Services</option>
-                     <option value="Jobs">Jobs</option>
-                     <option value="Real Estates">Real Estates</option>
+                     <option value="">전체</option>
+                     <option value="Mobiles">디지털기기s</option>
+                     <option value="Electronics & Appliances">남성의류</option>
+                     <option value="Cars">여성의류</option>
+                     <option value="Bikes">도서/티켓</option>
+                     <option value="Furnitures">생활가전/가구</option>
+                     <option value="Books, Sports & Hobbies">악세사리</option>
+                     <option value="Fashion">스포츠레저</option>
+                     <option value="Kids">구매</option>
+                     <option value="Services">기타</option>
+                     <option value="Jobs">자유게시판</option>
                   </select>
                   <button type="submit" class="btn btn-default" aria-label="Left Align">
                      <i class="fa fa-search" aria-hidden="true"> </i>
                   </button>
                </form>
-            <a class="post-w3layouts-ad" href="post-ad">Post Free Ad</a>
+            <!-- <a class="post-w3layouts-ad" href="post-ad">Post Free Ad</a> -->
             </div>   
             <div class="clearfix"></div>
          </div>
