@@ -78,7 +78,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
       </div>
       <div class="col-md-3">
         <div class="focus-grid w3layouts-boder3">
-          <a class="btn-8" href="/categories/services">
+          <a class="btn-8" href="/categories/cars">
             <div class="focus-border">
               <div class="focus-layout">
                 <div class="focus-image">
@@ -165,7 +165,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
       </div>
       <div class="col-md-3">
         <div class="focus-grid w3layouts-boder9">
-          <a class="btn-8" href="/categories/services-write">
+          <a class="btn-8" href="/categories/kids">
 <!--            <a class="btn-8" href="/categories/kids#parentVerticalTab9"> -->
             <div class="focus-border">
               <div class="focus-layout">
@@ -180,7 +180,7 @@ prefix="c"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
       </div>
       <div class="col-md-3">
         <div class="focus-grid w3layouts-boder10">
-          <a class="btn-8" href="src/main/WEB-INF/views/services.jsp">
+          <a class="btn-8" href="/categories/services">
             <div class="focus-border">
               <div class="focus-layout">
                 <div class="focus-image">

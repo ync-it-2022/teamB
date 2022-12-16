@@ -1,4 +1,3 @@
-
 	<%@include file="./includes/header.jsp"%>
 	
 	<!-- 한글 깨짐 방지 -->
