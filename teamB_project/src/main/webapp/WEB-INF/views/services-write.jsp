@@ -38,7 +38,7 @@
 	<!-- Electronic appliances -->
 	<div class="total-ads main-grid-border">
 		<div class="container">
-		      <form method = "get" action = "write_action.php">
+		      <form method = "get" action = "write_action.jsp">
         <table  style="padding-top:50px" align = center width=700 border=0 cellpadding=2 >
                 <tr>
                 <td height=20 align= center bgcolor=#ccc><font color=white> 글쓰기</font></td>
