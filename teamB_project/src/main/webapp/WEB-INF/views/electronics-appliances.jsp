@@ -10,7 +10,7 @@
 		<div class="container">
 			<span class="agile-breadcrumbs">
 			<a href="/index.jsp"><i class="fa fa-home home_1"></i></a> / 
-			<a href="/categories/electronics-appliances.jsp">디지털기기</a>
+			<a href="/categories/electronics-appliances">디지털기기</a>
 		       <!-- /
 					<span>Electronics & Appliances</span> -->
 		    </span>
