@@ -488,7 +488,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                   <input name="Search" type="text" placeholder="검색" required="" />
                   <select id="agileinfo_search" name="agileinfo_search" required="">
                      <option value="">전체</option>
-                     <option value="Mobiles">디지털기기s</option>
+                     <option value="Mobiles">디지털기기</option>
                      <option value="Electronics & Appliances">남성의류</option>
                      <option value="Cars">여성의류</option>
                      <option value="Bikes">도서/티켓</option>

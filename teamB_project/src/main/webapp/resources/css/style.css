@@ -228,9 +228,9 @@ header {
 .agileits_search i.fa.fa-search {
     color: #fff;
 }
-#agileinfo_search {
+/* #agileinfo_search {
     padding: 9.5px 2px;
-}
+} */
 ::-webkit-input-placeholder {
 	color:#000 !important;
 }
@@ -4759,9 +4759,9 @@ label {
 	.agileits_search input[type="text"] {
 		width: 64%;
 	}
-	#agileinfo_search {
+	/* #agileinfo_search {
 		width: 27%;
-	}
+	} */
 	a.w3layouts-explore-all {
 		width: 24%;
 	}
@@ -4836,9 +4836,9 @@ label {
 		width: 68%;
 		margin-top:5px;
 	}
-	#agileinfo_search {
+/* 	#agileinfo_search {
 		width: 27%;
-	}
+	} */
 	.w3ls-portfolio-left {
 		width: 50%;
 	}
