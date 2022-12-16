@@ -171,7 +171,7 @@ header {
 .agileits_search {
     float: right;
 	margin-top: 7px;
-	width: 65%;
+	width: 75%;
 }
 .logo a {
 	font-family: 'Ubuntu Condensed', sans-serif;
@@ -299,7 +299,7 @@ button.btn.btn-primary:active {
 }
 
 .w3ls-header {
-    background: #191e21;
+    background: #F5DF4D;
     padding: 8px 20px 10px 25px;
 }
 .w3ls-header-left {

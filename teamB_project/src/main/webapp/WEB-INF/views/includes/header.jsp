@@ -478,7 +478,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="logo">
                <h1><a href="/">
                <img src="/resources/images/tori.png" title="logo_image" alt="" />
-               <span>トリマーケット</span>
+              	<!--  <span>トリマーケット</span> -->
                <!-- sale-v2 -->
                </a></h1>
             </div>
