@@ -140,7 +140,7 @@
 								<div>
 									<div id="container">
 	
-										<button class="list_new_post">글쓰기</button>
+										<button class="list_new_post" onclick="location.href='../boardwriter.jsp'">글쓰기</button>
 										<!-- <a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a> -->
 	
 										<div class="sort">
